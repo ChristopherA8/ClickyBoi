@@ -1,0 +1,17 @@
+{
+  "name": "ClickyBoi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^15.6.1",
+    "discord.js": "github:monbrey/discord.js#message-components",
+    "npm": "^7.15.0"
+  }
+}
