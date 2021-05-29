@@ -4,6 +4,7 @@ const { MessageActionRow, MessageButton } = require("discord.js");
 const client = new Client({ intents: [Intents.NON_PRIVILEGED] });
 const wait = require("util").promisify(setTimeout);
 const fs = require("fs");
+const { token } = require("./config.json");
 
 client.on(`ready`, () => {
   console.log(`click click click`);
@@ -60,4 +61,4 @@ client.on(`interaction`, async (interaction) => {
   }
 });
 
-client.login(`ODQ4MDQ0ODQxNzk1NDUyOTI4.YLG5Tg.PybqTroOk13wadj8DqBfG1_MZhU`);
+client.login(token);
