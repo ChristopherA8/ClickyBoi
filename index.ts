@@ -10,6 +10,7 @@ const { token } = require("./config.json");
 
 client.on(`ready`, () => {
   console.log(`click click click`);
+  client.user.setActivity(`in ${client.guilds.cache.size} servers`);
 });
 
 client.on(`message`, async (msg) => {
