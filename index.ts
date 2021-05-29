@@ -6,6 +6,8 @@ const wait = require("util").promisify(setTimeout);
 const fs = require("fs");
 const { token } = require("./config.json");
 
+// This bot uses the #message-components branch of monbrey's discord.js fork which adds support for message components
+
 client.on(`ready`, () => {
   console.log(`click click click`);
 });
